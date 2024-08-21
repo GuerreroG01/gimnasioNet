@@ -1,3 +1,4 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -11,16 +12,14 @@ public class Fechas_Usuario
     [ForeignKey("Usuarios")]
     public int UsuarioId { get; set; }
 
-    [Required]
-    public DateTime FechaIngreso { get; set; }
+    [Column(TypeName = "DATE")]
+    public DateTime? FechaPago { get; set; }
 
-    [Required]
-    public DateTime FechaPago { get; set; }
+    [Column(TypeName = "DATE")]
+    public DateTime? FechaPagoA { get; set; }
 
-    [Required]
-    public DateTime FechaPagoA { get; set; }
-
+    [Column(TypeName = "DATE")]
     public DateTime? FechaVencimiento { get; set; }
 
-    public Usuarios Usuarios { get; set; }
+    public Usuarios Usuario { get; set; }
 }

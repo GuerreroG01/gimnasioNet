@@ -20,15 +20,16 @@ public class Usuarios
     [StringLength(15)]
     public string Telefono { get; set; }
 
-    [Required]
-    public string Foto { get; set; }
+    public string? Foto { get; set; }
+    
+    [Column(TypeName = "DATE")]
+    public DateTime? FechaIngreso { get; set; }
 
     [Required]
     public bool Activo { get; set; }
 
-    [Required]
     [StringLength(150)]
-    public string Observaciones { get; set; }
+    public string? Observaciones { get; set; }
 
-    public ICollection<Fechas_Usuario> FechasUsuario { get; set; }
+    public ICollection<Fechas_Usuario>? FechasUsuario { get; set; }
 }
