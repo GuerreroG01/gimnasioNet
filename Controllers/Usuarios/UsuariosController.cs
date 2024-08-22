@@ -46,111 +46,106 @@ namespace gimnasioNet.Controllers
 
         // PUT: api/Usuarios/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUsuarios(int id, [FromForm] Usuarios usuarios, IFormFile? foto)
+public async Task<IActionResult> PutUsuarios(int id, [FromForm] Usuarios usuarios, IFormFile? foto)
+{
+    if (id != usuarios.Codigo)
+    {
+        return BadRequest("El ID del usuario no coincide.");
+    }
+
+    var existingUser = await _context.Usuarios.FindAsync(id);
+    if (existingUser == null)
+    {
+        return NotFound();
+    }
+
+    if (foto != null)
+    {
+        var newFileName = Guid.NewGuid().ToString() + Path.GetExtension(foto.FileName);
+        var filePath = Path.Combine(_imagePath, newFileName);
+
+        using (var stream = new FileStream(filePath, FileMode.Create))
         {
-            if (id != usuarios.Codigo)
-            {
-                return BadRequest("El ID del usuario no coincide.");
-            }
-
-            var existingUser = await _context.Usuarios.FindAsync(id);
-            if (existingUser == null)
-            {
-                return NotFound();
-            }
-
-            if (foto != null)
-            {
-                var newFileName = Guid.NewGuid().ToString() + Path.GetExtension(foto.FileName);
-                var filePath = Path.Combine(_imagePath, newFileName);
-
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    await foto.CopyToAsync(stream);
-                }
-
-                // Elimina la foto antigua si es necesario
-                if (!string.IsNullOrEmpty(existingUser.Foto) && existingUser.Foto != "Default.png")
-                {
-                    var oldFilePath = Path.Combine(_imagePath, existingUser.Foto);
-                    if (System.IO.File.Exists(oldFilePath))
-                    {
-                        System.IO.File.Delete(oldFilePath);
-                    }
-                }
-
-                usuarios.Foto = newFileName;
-            }
-            else
-            {
-                usuarios.Foto = existingUser.Foto;
-            }
-
-            _context.Entry(existingUser).CurrentValues.SetValues(usuarios);
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!UsuariosExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    return StatusCode(500, "Error al actualizar el usuario.");
-                }
-            }
-
-            return NoContent();
+            await foto.CopyToAsync(stream);
         }
 
-        // POST: api/Fechas_Usuario
-        [HttpPost("Fechas_Usuario")]
-        public async Task<ActionResult<Fechas_Usuario>> PostFechasUsuario(Fechas_Usuario fechasUsuario)
+        // Elimina la foto antigua si es necesario
+        if (!string.IsNullOrEmpty(existingUser.Foto) && existingUser.Foto != "Default.png")
         {
-            if (!ModelState.IsValid)
+            var oldFilePath = Path.Combine(_imagePath, existingUser.Foto);
+            if (System.IO.File.Exists(oldFilePath))
             {
-                return BadRequest(ModelState);
-            }
-
-            // Verifica que UsuarioId esté presente
-            if (fechasUsuario.UsuarioId <= 0)
-            {
-                ModelState.AddModelError("UsuarioId", "UsuarioId es requerido y debe ser un número positivo.");
-                return BadRequest(ModelState);
-            }
-
-            // Verifica si el UsuarioId existe en la tabla Usuarios
-            var usuarioExistente = await _context.Usuarios
-                .FirstOrDefaultAsync(u => u.Codigo == fechasUsuario.UsuarioId);
-
-            if (usuarioExistente == null)
-            {
-                ModelState.AddModelError("UsuarioId", "UsuarioId no existe en la tabla de Usuarios.");
-                return BadRequest(ModelState);
-            }
-
-            // Verifica fechas
-            if (fechasUsuario.FechaPago > fechasUsuario.FechaVencimiento)
-            {
-                ModelState.AddModelError("FechaPago", "La fecha de pago no puede ser mayor que la fecha de vencimiento.");
-                return BadRequest(ModelState);
-            }
-
-            try
-            {
-                _context.Fechas_Usuarios.Add(fechasUsuario);
-                await _context.SaveChangesAsync();
-                return CreatedAtAction(nameof(GetFechasUsuario), new { id = fechasUsuario.Id }, fechasUsuario);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, new { message = ex.Message });
+                System.IO.File.Delete(oldFilePath);
             }
         }
+
+        usuarios.Foto = newFileName;
+    }
+    else
+    {
+        usuarios.Foto = existingUser.Foto;
+    }
+
+    _context.Entry(existingUser).CurrentValues.SetValues(usuarios);
+
+    try
+    {
+        await _context.SaveChangesAsync();
+    }
+    catch (DbUpdateConcurrencyException)
+    {
+        if (!UsuariosExists(id))
+        {
+            return NotFound();
+        }
+        else
+        {
+            return StatusCode(500, "Error al actualizar el usuario.");
+        }
+    }
+
+    return NoContent();
+}
+
+        // POST: api/Usuarios
+[HttpPost]
+public async Task<ActionResult<Usuarios>> PostUsuarios([FromForm] Usuarios usuario, IFormFile? foto)
+{
+    if (!ModelState.IsValid)
+    {
+        return BadRequest(ModelState);
+    }
+
+    if (foto != null)
+    {
+        var newFileName = Guid.NewGuid().ToString() + Path.GetExtension(foto.FileName);
+        var filePath = Path.Combine(_imagePath, newFileName);
+
+        using (var stream = new FileStream(filePath, FileMode.Create))
+        {
+            await foto.CopyToAsync(stream);
+        }
+
+        usuario.Foto = newFileName;
+    }
+    else
+    {
+        usuario.Foto = "Default.png";
+    }
+
+    _context.Usuarios.Add(usuario);
+
+    try
+    {
+        await _context.SaveChangesAsync();
+    }
+    catch (DbUpdateException ex)
+    {
+        return StatusCode(StatusCodes.Status500InternalServerError, new { message = "Error al agregar el usuario: " + ex.Message });
+    }
+
+    return CreatedAtAction(nameof(GetUsuarios), new { id = usuario.Codigo }, usuario);
+}
 
         // DELETE: api/Usuarios/5
         [HttpDelete("{id}")]

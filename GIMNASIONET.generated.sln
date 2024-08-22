@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gimnasioNet", "gimnasioNet.csproj", "{20A7F8FA-3DBC-4D3B-8B1B-71D60ACE7B07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gimnasioNet", "gimnasioNet.csproj", "{14CF528D-F240-445A-BB3F-C2D3D6509E1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{20A7F8FA-3DBC-4D3B-8B1B-71D60ACE7B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20A7F8FA-3DBC-4D3B-8B1B-71D60ACE7B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20A7F8FA-3DBC-4D3B-8B1B-71D60ACE7B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{20A7F8FA-3DBC-4D3B-8B1B-71D60ACE7B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CF528D-F240-445A-BB3F-C2D3D6509E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CF528D-F240-445A-BB3F-C2D3D6509E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CF528D-F240-445A-BB3F-C2D3D6509E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CF528D-F240-445A-BB3F-C2D3D6509E1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

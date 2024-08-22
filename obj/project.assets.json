@@ -7925,19 +7925,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\guerr\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\gimnasioNet.csproj",
+      "projectUniqueName": "D:\\Otro\\Gimnasio\\gimnasioNet\\gimnasioNet.csproj",
       "projectName": "gimnasioNet",
-      "projectPath": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\gimnasioNet.csproj",
-      "packagesPath": "C:\\Users\\guerr\\.nuget\\packages\\",
-      "outputPath": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\obj\\",
+      "projectPath": "D:\\Otro\\Gimnasio\\gimnasioNet\\gimnasioNet.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "D:\\Otro\\Gimnasio\\gimnasioNet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\guerr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

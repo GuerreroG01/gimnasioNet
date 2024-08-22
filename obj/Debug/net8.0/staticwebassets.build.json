@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qUeco+f/4uCNw4NWzsz4MrpD+/4OBxQKLSlPkS3SExE=",
+  "Hash": "4Y4QODPQUo3R/A4xLwXHhIBakegzvTC4PaJ3vjBCXiU=",
   "Source": "gimnasioNet",
   "BasePath": "_content/gimnasioNet",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "gimnasioNet\\wwwroot",
       "Source": "gimnasioNet",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\css\\site.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\favicon.ico",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\Images\\9f23d4b6-387b-444b-93fa-4136988fa09a.png",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\9f23d4b6-387b-444b-93fa-4136988fa09a.png",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "Images/9f23d4b6-387b-444b-93fa-4136988fa09a.png",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\9f23d4b6-387b-444b-93fa-4136988fa09a.png"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\Images\\Ana_Gomez.png",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\Ana_Gomez.png",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "Images/Ana_Gomez.png",
       "AssetKind": "All",
@@ -93,10 +93,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\Ana_Gomez.png"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\Images\\Default.png",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\c90081c9-e772-441e-ad37-4995fd64b04b.jpeg",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
+      "BasePath": "_content/gimnasioNet",
+      "RelativePath": "Images/c90081c9-e772-441e-ad37-4995fd64b04b.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\c90081c9-e772-441e-ad37-4995fd64b04b.jpeg"
+    },
+    {
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\Default.png",
+      "SourceId": "gimnasioNet",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "Images/Default.png",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Default.png"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\Images\\e3183d3d-0a64-414a-8f97-95c8e6a2c2d0.jpeg",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\e3183d3d-0a64-414a-8f97-95c8e6a2c2d0.jpeg",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "Images/e3183d3d-0a64-414a-8f97-95c8e6a2c2d0.jpeg",
       "AssetKind": "All",
@@ -131,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\e3183d3d-0a64-414a-8f97-95c8e6a2c2d0.jpeg"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\js\\site.js",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -150,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -169,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -188,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -207,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -226,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -245,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -264,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -283,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -302,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -321,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -340,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -359,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -378,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -397,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -416,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -435,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -454,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -473,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -492,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -511,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -530,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -549,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -568,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -587,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -606,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -625,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -644,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -663,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -682,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -701,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -720,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -739,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -758,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -777,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -796,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -815,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -834,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -853,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -872,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -891,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -910,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -929,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -948,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -967,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -986,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1005,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1024,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1043,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1062,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1081,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1100,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1119,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1138,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1157,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1176,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1195,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1214,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "gimnasioNet",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Aula virtual\\Gimnasio\\GIMNASIONET\\wwwroot\\",
+      "ContentRoot": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\",
       "BasePath": "_content/gimnasioNet",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

@@ -1,6 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 [Table("fechas_usuario")]
 public class Fechas_Usuario
@@ -11,6 +12,9 @@ public class Fechas_Usuario
 
     [ForeignKey("Usuarios")]
     public int UsuarioId { get; set; }
+    
+    [JsonIgnore]
+    public Usuarios? Usuario { get; set; }
 
     [Column(TypeName = "DATE")]
     public DateTime? FechaPago { get; set; }
@@ -21,5 +25,4 @@ public class Fechas_Usuario
     [Column(TypeName = "DATE")]
     public DateTime? FechaVencimiento { get; set; }
 
-    public Usuarios Usuario { get; set; }
 }
