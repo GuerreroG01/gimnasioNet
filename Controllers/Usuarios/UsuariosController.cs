@@ -16,6 +16,7 @@ namespace gimnasioNet.Controllers
     {
         private readonly AppDbContext _context;
         private readonly string _imagePath;
+        private readonly string _defaultImageName = "Default.png";
 
         public UsuariosController(AppDbContext context)
         {
@@ -44,7 +45,6 @@ namespace gimnasioNet.Controllers
             return usuario;
         }
 
-        // PUT: api/Usuarios/5
         [HttpPut("{id}")]
 public async Task<IActionResult> PutUsuarios(int id, [FromForm] Usuarios usuarios, IFormFile? foto)
 {
@@ -59,18 +59,28 @@ public async Task<IActionResult> PutUsuarios(int id, [FromForm] Usuarios usuario
         return NotFound();
     }
 
+    // Actualiza los detalles del usuario
+    existingUser.Nombres = usuarios.Nombres;
+    existingUser.Apellidos = usuarios.Apellidos;
+    existingUser.Telefono = usuarios.Telefono;
+    existingUser.FechaIngreso = usuarios.FechaIngreso;
+    existingUser.Activo = usuarios.Activo;
+    existingUser.Observaciones = usuarios.Observaciones;
+
     if (foto != null)
     {
+        // Genera un nuevo nombre para la foto
         var newFileName = Guid.NewGuid().ToString() + Path.GetExtension(foto.FileName);
         var filePath = Path.Combine(_imagePath, newFileName);
 
+        // Guarda la nueva foto en el servidor
         using (var stream = new FileStream(filePath, FileMode.Create))
         {
             await foto.CopyToAsync(stream);
         }
 
         // Elimina la foto antigua si es necesario
-        if (!string.IsNullOrEmpty(existingUser.Foto) && existingUser.Foto != "Default.png")
+        if (!string.IsNullOrEmpty(existingUser.Foto) && existingUser.Foto != _defaultImageName)
         {
             var oldFilePath = Path.Combine(_imagePath, existingUser.Foto);
             if (System.IO.File.Exists(oldFilePath))
@@ -79,15 +89,11 @@ public async Task<IActionResult> PutUsuarios(int id, [FromForm] Usuarios usuario
             }
         }
 
-        usuarios.Foto = newFileName;
-    }
-    else
-    {
-        usuarios.Foto = existingUser.Foto;
+        // Actualiza el nombre de la foto en el usuario
+        existingUser.Foto = newFileName;
     }
 
-    _context.Entry(existingUser).CurrentValues.SetValues(usuarios);
-
+    // Guarda los cambios en la base de datos
     try
     {
         await _context.SaveChangesAsync();
@@ -107,45 +113,58 @@ public async Task<IActionResult> PutUsuarios(int id, [FromForm] Usuarios usuario
     return NoContent();
 }
 
+
         // POST: api/Usuarios
-[HttpPost]
-public async Task<ActionResult<Usuarios>> PostUsuarios([FromForm] Usuarios usuario, IFormFile? foto)
-{
-    if (!ModelState.IsValid)
-    {
-        return BadRequest(ModelState);
-    }
-
-    if (foto != null)
-    {
-        var newFileName = Guid.NewGuid().ToString() + Path.GetExtension(foto.FileName);
-        var filePath = Path.Combine(_imagePath, newFileName);
-
-        using (var stream = new FileStream(filePath, FileMode.Create))
+        [HttpPost]
+        public async Task<ActionResult<Usuarios>> PostUsuarios([FromForm] Usuarios usuario, IFormFile? foto)
         {
-            await foto.CopyToAsync(stream);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            if (foto != null)
+            {
+                var newFileName = Guid.NewGuid().ToString() + Path.GetExtension(foto.FileName);
+                var filePath = Path.Combine(_imagePath, newFileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await foto.CopyToAsync(stream);
+                }
+
+                usuario.Foto = newFileName;
+            }
+            else
+            {
+                // Copiar la imagen predeterminada si no existe
+                var defaultImagePath = Path.Combine(_imagePath, _defaultImageName);
+                if (!System.IO.File.Exists(defaultImagePath))
+                {
+                    return StatusCode(StatusCodes.Status500InternalServerError, new { message = "La imagen predeterminada no existe." });
+                }
+
+                // Copiar la imagen predeterminada al directorio de imágenes del usuario
+                var newFileName = Guid.NewGuid().ToString() + Path.GetExtension(defaultImagePath);
+                var newFilePath = Path.Combine(_imagePath, newFileName);
+                System.IO.File.Copy(defaultImagePath, newFilePath);
+
+                usuario.Foto = newFileName;
+            }
+
+            _context.Usuarios.Add(usuario);
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new { message = "Error al agregar el usuario: " + ex.Message });
+            }
+
+            return CreatedAtAction(nameof(GetUsuarios), new { id = usuario.Codigo }, usuario);
         }
-
-        usuario.Foto = newFileName;
-    }
-    else
-    {
-        usuario.Foto = "Default.png";
-    }
-
-    _context.Usuarios.Add(usuario);
-
-    try
-    {
-        await _context.SaveChangesAsync();
-    }
-    catch (DbUpdateException ex)
-    {
-        return StatusCode(StatusCodes.Status500InternalServerError, new { message = "Error al agregar el usuario: " + ex.Message });
-    }
-
-    return CreatedAtAction(nameof(GetUsuarios), new { id = usuario.Codigo }, usuario);
-}
 
         // DELETE: api/Usuarios/5
         [HttpDelete("{id}")]
@@ -158,7 +177,7 @@ public async Task<ActionResult<Usuarios>> PostUsuarios([FromForm] Usuarios usuar
             }
 
             var filePath = Path.Combine(_imagePath, usuario.Foto);
-            if (System.IO.File.Exists(filePath) && usuario.Foto != "Default.png")
+            if (System.IO.File.Exists(filePath) && usuario.Foto != _defaultImageName)
             {
                 System.IO.File.Delete(filePath);
             }

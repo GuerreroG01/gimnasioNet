@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\3435708d-7bef-4259-8a4b-9fad1c5e28de.jpeg",
+      "PackagePath": "staticwebassets\\Images\\3435708d-7bef-4259-8a4b-9fad1c5e28de.jpeg"
+    },
+    {
+      "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\5e8232ce-ae23-46ed-a534-881c562f8aee.jpeg",
+      "PackagePath": "staticwebassets\\Images\\5e8232ce-ae23-46ed-a534-881c562f8aee.jpeg"
+    },
+    {
       "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\9f23d4b6-387b-444b-93fa-4136988fa09a.png",
       "PackagePath": "staticwebassets\\Images\\9f23d4b6-387b-444b-93fa-4136988fa09a.png"
     },

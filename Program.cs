@@ -38,8 +38,6 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
-// Usa la política de CORS configurada
 app.UseCors("AllowReactApp");
 
 app.UseAuthorization();

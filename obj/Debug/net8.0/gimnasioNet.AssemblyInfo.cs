@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gimnasioNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2c965eff3bef2bb39ded96285ed9b3e851c45fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7318e9261a84d895ab90a80a951994fb3f06228")]
 [assembly: System.Reflection.AssemblyProductAttribute("gimnasioNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gimnasioNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

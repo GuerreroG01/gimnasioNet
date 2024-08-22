@@ -100,21 +100,19 @@ namespace gimnasioNet.Controllers
             return Ok(fechasUsuarioDto);
         }
 
-        // PUT: api/Fechas_Usuario/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutFechasUsuario(int id, [FromBody] Fechas_Usuario fechasUsuario)
-        {
-            if (id != fechasUsuario.Id)
-            {
-                return BadRequest("El ID proporcionado no coincide con el ID del recurso.");
-            }
+        // POST: api/Fechas_Usuario
+        // POST: api/Fechas_Usuario
+// Fechas_UsuarioController.cs
 
+[HttpPost]
+        public async Task<ActionResult<Fechas_Usuario>> PostFechasUsuario([FromBody] Fechas_Usuario fechasUsuario)
+        {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            // Verifica que el usuario exista
+            // Verifica que UsuarioId esté presente y sea válido
             var usuario = await _context.Usuarios.FindAsync(fechasUsuario.UsuarioId);
             if (usuario == null)
             {
@@ -131,68 +129,8 @@ namespace gimnasioNet.Controllers
 
             try
             {
-                // Asocia el usuario y actualiza la entrada
+                // Asocia el usuario y agrega la nueva entrada
                 fechasUsuario.Usuario = usuario; // Relacionar con el usuario encontrado
-                _context.Entry(fechasUsuario).State = EntityState.Modified;
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!FechasUsuarioExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, new { message = ex.Message });
-            }
-
-            return NoContent();
-        }
-
-        // POST: api/Fechas_Usuario
-        // POST: api/Fechas_Usuario
-// Fechas_UsuarioController.cs
-
-[HttpPost("Fechas_Usuario")]
-        public async Task<ActionResult<Fechas_Usuario>> PostFechasUsuario(Fechas_Usuario fechasUsuario)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            // Verifica que UsuarioId esté presente
-            if (fechasUsuario.UsuarioId <= 0)
-            {
-                ModelState.AddModelError("UsuarioId", "UsuarioId es requerido y debe ser un número positivo.");
-                return BadRequest(ModelState);
-            }
-
-            // Verifica si el UsuarioId existe en la tabla Usuarios
-            var usuarioExistente = await _context.Usuarios
-                .FirstOrDefaultAsync(u => u.Codigo == fechasUsuario.UsuarioId);
-
-            if (usuarioExistente == null)
-            {
-                ModelState.AddModelError("UsuarioId", "UsuarioId no existe en la tabla de Usuarios.");
-                return BadRequest(ModelState);
-            }
-
-            // Verifica fechas
-            if (fechasUsuario.FechaPago > fechasUsuario.FechaVencimiento)
-            {
-                ModelState.AddModelError("FechaPago", "La fecha de pago no puede ser mayor que la fecha de vencimiento.");
-                return BadRequest(ModelState);
-            }
-
-            try
-            {
                 _context.Fechas_Usuarios.Add(fechasUsuario);
                 await _context.SaveChangesAsync();
                 return CreatedAtAction(nameof(GetFechasUsuario), new { id = fechasUsuario.Id }, fechasUsuario);
@@ -202,7 +140,6 @@ namespace gimnasioNet.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, new { message = ex.Message });
             }
         }
-
 
 
         // DELETE: api/Fechas_Usuario/5
