@@ -1,12 +1,44 @@
 {
   "Files": [
     {
+      "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\03c8708d-f7b6-4db0-9ec6-5e7d5b42ab50.png",
+      "PackagePath": "staticwebassets\\Images\\03c8708d-f7b6-4db0-9ec6-5e7d5b42ab50.png"
+    },
+    {
+      "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\1a198af3-26ee-4537-85f6-cef4e7f3bdf8.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1a198af3-26ee-4537-85f6-cef4e7f3bdf8.jpeg"
+    },
+    {
+      "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\1c805bf1-8707-45ee-a91f-8706c4f35ab8.png",
+      "PackagePath": "staticwebassets\\Images\\1c805bf1-8707-45ee-a91f-8706c4f35ab8.png"
+    },
+    {
+      "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\22c77251-204b-4988-b364-5d81fe88d95d.png",
+      "PackagePath": "staticwebassets\\Images\\22c77251-204b-4988-b364-5d81fe88d95d.png"
+    },
+    {
+      "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\296a9540-c384-448e-9935-1358bdc5a484.png",
+      "PackagePath": "staticwebassets\\Images\\296a9540-c384-448e-9935-1358bdc5a484.png"
+    },
+    {
       "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\3435708d-7bef-4259-8a4b-9fad1c5e28de.jpeg",
       "PackagePath": "staticwebassets\\Images\\3435708d-7bef-4259-8a4b-9fad1c5e28de.jpeg"
     },
     {
+      "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\483cbf1b-a198-4a60-8df7-77d69793663c.png",
+      "PackagePath": "staticwebassets\\Images\\483cbf1b-a198-4a60-8df7-77d69793663c.png"
+    },
+    {
       "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\5e8232ce-ae23-46ed-a534-881c562f8aee.jpeg",
       "PackagePath": "staticwebassets\\Images\\5e8232ce-ae23-46ed-a534-881c562f8aee.jpeg"
+    },
+    {
+      "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\7104efeb-ab1a-473e-9843-9452889f22e1.png",
+      "PackagePath": "staticwebassets\\Images\\7104efeb-ab1a-473e-9843-9452889f22e1.png"
+    },
+    {
+      "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\75489ade-f641-4de3-b15f-cf9e72b26944.png",
+      "PackagePath": "staticwebassets\\Images\\75489ade-f641-4de3-b15f-cf9e72b26944.png"
     },
     {
       "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\9f23d4b6-387b-444b-93fa-4136988fa09a.png",
@@ -21,8 +53,24 @@
       "PackagePath": "staticwebassets\\Images\\Default.png"
     },
     {
+      "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\bdfaecc6-324e-4221-946f-47397ed430a9.png",
+      "PackagePath": "staticwebassets\\Images\\bdfaecc6-324e-4221-946f-47397ed430a9.png"
+    },
+    {
+      "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\c4bd5ee6-73da-4b24-b462-d3d059158ee5.png",
+      "PackagePath": "staticwebassets\\Images\\c4bd5ee6-73da-4b24-b462-d3d059158ee5.png"
+    },
+    {
       "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\c90081c9-e772-441e-ad37-4995fd64b04b.jpeg",
       "PackagePath": "staticwebassets\\Images\\c90081c9-e772-441e-ad37-4995fd64b04b.jpeg"
+    },
+    {
+      "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\cd5e0f3c-d894-4330-8420-2244da892991.png",
+      "PackagePath": "staticwebassets\\Images\\cd5e0f3c-d894-4330-8420-2244da892991.png"
+    },
+    {
+      "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\e1d8d912-e638-4b90-880b-b914b6beb3f8.png",
+      "PackagePath": "staticwebassets\\Images\\e1d8d912-e638-4b90-880b-b914b6beb3f8.png"
     },
     {
       "Id": "D:\\Otro\\Gimnasio\\gimnasioNet\\wwwroot\\Images\\e3183d3d-0a64-414a-8f97-95c8e6a2c2d0.jpeg",

@@ -48,9 +48,9 @@ namespace gimnasioNet.Controllers
         [HttpPut("{id}")]
 public async Task<IActionResult> PutUsuarios(int id, [FromForm] Usuarios usuarios, IFormFile? foto)
 {
-    if (id != usuarios.Codigo)
+    if (id != usuarios.Codigo)  // Verifica si el ID en la URL coincide con el ID del usuario
     {
-        return BadRequest("El ID del usuario no coincide.");
+        return BadRequest("El ID del usuario no coincide."+id+ "y se espera"+ usuarios.Codigo);
     }
 
     var existingUser = await _context.Usuarios.FindAsync(id);
@@ -59,21 +59,20 @@ public async Task<IActionResult> PutUsuarios(int id, [FromForm] Usuarios usuario
         return NotFound();
     }
 
-    // Actualiza los detalles del usuario
+    // Actualiza la información del usuario
     existingUser.Nombres = usuarios.Nombres;
     existingUser.Apellidos = usuarios.Apellidos;
     existingUser.Telefono = usuarios.Telefono;
-    existingUser.FechaIngreso = usuarios.FechaIngreso;
     existingUser.Activo = usuarios.Activo;
     existingUser.Observaciones = usuarios.Observaciones;
+    existingUser.FechaIngreso = usuarios.FechaIngreso ?? existingUser.FechaIngreso;  // Manejo de la fecha de ingreso
 
+    // Manejo de la foto
     if (foto != null)
     {
-        // Genera un nuevo nombre para la foto
         var newFileName = Guid.NewGuid().ToString() + Path.GetExtension(foto.FileName);
         var filePath = Path.Combine(_imagePath, newFileName);
 
-        // Guarda la nueva foto en el servidor
         using (var stream = new FileStream(filePath, FileMode.Create))
         {
             await foto.CopyToAsync(stream);
@@ -89,25 +88,20 @@ public async Task<IActionResult> PutUsuarios(int id, [FromForm] Usuarios usuario
             }
         }
 
-        // Actualiza el nombre de la foto en el usuario
         existingUser.Foto = newFileName;
     }
 
-    // Guarda los cambios en la base de datos
     try
     {
         await _context.SaveChangesAsync();
     }
-    catch (DbUpdateConcurrencyException)
+    catch (DbUpdateConcurrencyException ex)
     {
-        if (!UsuariosExists(id))
-        {
-            return NotFound();
-        }
-        else
-        {
-            return StatusCode(500, "Error al actualizar el usuario.");
-        }
+        return StatusCode(StatusCodes.Status500InternalServerError, $"Error al actualizar el usuario: {ex.Message}");
+    }
+    catch (Exception ex)
+    {
+        return StatusCode(StatusCodes.Status500InternalServerError, $"Error inesperado: {ex.Message}");
     }
 
     return NoContent();

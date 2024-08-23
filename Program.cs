@@ -16,13 +16,18 @@ builder.Services.AddCors(options =>
 });
 
 // Configura el DbContext antes de construir la aplicación.
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("AppDbContext"),
-        new MySqlServerVersion(new Version(8, 0, 34)))
-        .EnableDetailedErrors());
+//builder.Services.AddDbContext<AppDbContext>(options =>
+//    options.UseMySql(builder.Configuration.GetConnectionString("AppDbContext"),
+//        new MySqlServerVersion(new Version(8, 0, 34)))
+//        .EnableDetailedErrors());
 
 // Agrega los servicios necesarios al contenedor.
 builder.Services.AddControllersWithViews();
+
+//En Memoria
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseInMemoryDatabase("GimnasioInMemoryDb"));
+
 
 var app = builder.Build();
 

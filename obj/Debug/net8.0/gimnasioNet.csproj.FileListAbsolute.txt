@@ -750,3 +750,4 @@ D:\Otro\Gimnasio\gimnasioNet\obj\Debug\net8.0\refint\gimnasioNet.dll
 D:\Otro\Gimnasio\gimnasioNet\obj\Debug\net8.0\gimnasioNet.pdb
 D:\Otro\Gimnasio\gimnasioNet\obj\Debug\net8.0\gimnasioNet.genruntimeconfig.cache
 D:\Otro\Gimnasio\gimnasioNet\obj\Debug\net8.0\ref\gimnasioNet.dll
+D:\Otro\Gimnasio\gimnasioNet\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
